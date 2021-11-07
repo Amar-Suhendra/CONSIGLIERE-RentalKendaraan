@@ -6,7 +6,7 @@ Repositori ini berisi source App Rental Kendaraan yang dikerjakan oleh CONSIGLIE
 
 ## App Rental Kendaraan
 
-Aplikasi ini berguna untuk melakukan manajemen terhadap bisnis rental kendaraan, seperti melakukan manajemen kendaraan, manajemen pelanggan, dan manajemen waktu penyewaan dengan demikian anda menjadi lebih mudah dalam menjalankan bisnis anda.
+Aplikasi ini berguna untuk melakukan manajemen terhadap bisnis rental kendaraan seperti melakukan manajemen kendaraan, manajemen pelanggan, dan manajemen waktu penyewaan dengan demikian anda menjadi lebih mudah dalam menjalankan bisnis anda.
 
 ## Team Member
 
