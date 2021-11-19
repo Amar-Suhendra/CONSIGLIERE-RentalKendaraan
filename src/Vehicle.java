@@ -15,15 +15,15 @@ public class Vehicle {
     }
 
     protected void setHarga(double harga){
-
+        this.harga = harga;
     }
 
     protected void setTransmisi(String transmisi){
-
+        this.transmisi = transmisi;
     }
 
     protected void setTipeBbm(String tipebbm){
-
+        this.tipebbm = tipebbm;
     }
 
     public double getHarga() {
