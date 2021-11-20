@@ -4,7 +4,7 @@ public class Vehicle {
     private String transmisi;
     private String tipebbm;
     private double harga;
-
+    // ini adalah method
     public Vehicle(){
 
     }
