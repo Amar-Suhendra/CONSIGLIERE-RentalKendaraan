@@ -12,4 +12,12 @@ public class Customer {
         return nama;
     }
 
+    public void setLama_sewa(int hari){
+        lama_sewa = hari;
+    }
+
+    public int getLama_sewa(){
+        return lama_sewa;
+    }
+
 }
