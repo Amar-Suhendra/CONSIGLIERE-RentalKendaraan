@@ -20,4 +20,12 @@ public class Customer {
         return lama_sewa;
     }
 
+    public void setKontak(String Kontak){
+        kontak = Kontak;
+    }
+
+    public String getKontak(){
+        return kontak;
+    }
+
 }
