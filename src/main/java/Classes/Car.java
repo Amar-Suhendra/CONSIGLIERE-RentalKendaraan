@@ -1,3 +1,5 @@
+package Classes;
+
 public class Car extends Vehicle {
     private double HARGA;
     private String TRANSMISI;

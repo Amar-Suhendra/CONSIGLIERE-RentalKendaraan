@@ -1,3 +1,5 @@
+package Classes;
+
 public class Motorcycle extends Vehicle{
     private double HARGA;
     private String TRANSMISI;
