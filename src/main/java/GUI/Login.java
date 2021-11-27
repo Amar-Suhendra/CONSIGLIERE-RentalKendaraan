@@ -69,6 +69,11 @@ public class Login extends javax.swing.JFrame {
         JBtnLogin.setFont(new java.awt.Font("Verdana", 1, 36)); // NOI18N
         JBtnLogin.setForeground(new java.awt.Color(255, 255, 255));
         JBtnLogin.setText("Login");
+        JBtnLogin.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                JBtnLoginMouseClicked(evt);
+            }
+        });
         getContentPane().add(JBtnLogin);
         JBtnLogin.setBounds(620, 663, 200, 90);
 
@@ -114,6 +119,20 @@ public class Login extends javax.swing.JFrame {
             jPass.setForeground(new Color(204,204,204));
         }
     }//GEN-LAST:event_jPassFocusLost
+
+    private void JBtnLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JBtnLoginMouseClicked
+        // TODO add your handling code here:
+        if(jTFUsername.getText().equals("Admin") && jPass.getText().equals("Admin"))
+        {
+            Car mobil = new Car();
+            mobil.setVisible(true);
+            dispose();
+        }
+        else{
+            Error errorlogin = new Error();
+            errorlogin.setVisible(true);
+        }
+    }//GEN-LAST:event_JBtnLoginMouseClicked
 
     /**
      * @param args the command line arguments
