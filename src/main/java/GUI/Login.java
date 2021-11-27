@@ -122,7 +122,7 @@ public class Login extends javax.swing.JFrame {
 
     private void JBtnLoginMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_JBtnLoginMouseClicked
         // TODO add your handling code here:
-        if(jTFUsername.getText().equals("Admin") && jPass.getText().equals("Admin"))
+        /*if(jTFUsername.getText().equals("Admin") && jPass.getText().equals("Admin"))
         {
             Car mobil = new Car();
             mobil.setVisible(true);
@@ -131,7 +131,7 @@ public class Login extends javax.swing.JFrame {
         else{
             Error errorlogin = new Error();
             errorlogin.setVisible(true);
-        }
+        }*/
     }//GEN-LAST:event_JBtnLoginMouseClicked
 
     /**
