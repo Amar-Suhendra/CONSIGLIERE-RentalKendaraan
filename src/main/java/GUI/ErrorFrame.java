@@ -35,7 +35,7 @@ public class ErrorFrame extends javax.swing.JFrame {
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Assets/Group 22.png"))); // NOI18N
         jLabel1.setText("jLabel1");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(120, 20, 540, 620);
+        jLabel1.setBounds(120, 20, 530, 620);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
