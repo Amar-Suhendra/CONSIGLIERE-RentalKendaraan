@@ -24,6 +24,8 @@ public class ErrorFrame extends javax.swing.JFrame {
     private void initComponents() {
 
         jLabel1 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        OK = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setMinimumSize(new java.awt.Dimension(1440, 900));
@@ -31,10 +33,28 @@ public class ErrorFrame extends javax.swing.JFrame {
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Assets/Group 23.png"))); // NOI18N
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(340, 10, 532, 600);
+        jLabel1.setBounds(380, 10, 0, 600);
+
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Assets/Group07.png"))); // NOI18N
+        getContentPane().add(jLabel2);
+        jLabel2.setBounds(400, 10, 590, 660);
+
+        OK.setFont(new java.awt.Font("Montserrat ExtraBold", 0, 24)); // NOI18N
+        OK.setText("OK");
+        OK.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                OKActionPerformed(evt);
+            }
+        });
+        getContentPane().add(OK);
+        OK.setBounds(543, 563, 250, 70);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void OKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OKActionPerformed
+        System.exit(0);
+    }//GEN-LAST:event_OKActionPerformed
 
     /**
      * @param args the command line arguments
@@ -72,6 +92,8 @@ public class ErrorFrame extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton OK;
     private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
     // End of variables declaration//GEN-END:variables
 }
