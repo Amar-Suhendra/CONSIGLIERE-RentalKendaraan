@@ -1,6 +1,8 @@
 
 package GUI;
 
+import javax.swing.JOptionPane;
+
 /**
  *
  * @author user
@@ -53,7 +55,7 @@ public class ErrorFrame extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void OKActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_OKActionPerformed
-        System.exit(0);
+           System.exit(0);
     }//GEN-LAST:event_OKActionPerformed
 
     /**
