@@ -16,15 +16,15 @@ public class Vehicle {
         this.jenis = jenis;
     }
 
-    protected void setHarga(double harga){
+    public void setHarga(double harga){
         this.harga = harga;
     }
 
-    protected void setTransmisi(String transmisi){
+    public void setTransmisi(String transmisi){
         this.transmisi = transmisi;
     }
 
-    protected void setTipeBbm(String tipebbm){
+    public void setTipeBbm(String tipebbm){
         this.tipebbm = tipebbm;
     }
 
@@ -39,4 +39,13 @@ public class Vehicle {
     public String getTipebbm() {
         return tipebbm;
     }
+
+    public String getNama(){
+        return nama;
+    }
+
+    public String getJenis(){
+        return jenis;
+    }
+
 }
