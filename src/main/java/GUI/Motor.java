@@ -240,7 +240,7 @@ public class Motor extends javax.swing.JFrame {
 
     private void jBtnRent1MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBtnRent1MouseClicked
         // TODO add your handling code here:
-        Motorcycle motor1 = new Motorcycle("Vario", "Naked");
+        Motorcycle motor1 = new Motorcycle("Vario", "Skuter");
         motor1.setHarga(50000);
         motor1.setTipeBbm("Pertamax");
         motor1.setTransmisi("Automatic");
@@ -255,7 +255,7 @@ public class Motor extends javax.swing.JFrame {
 
     private void jBtnRent2MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jBtnRent2MouseClicked
         // TODO add your handling code here:
-        Motorcycle motor1 = new Motorcycle("Beat", "Naked");
+        Motorcycle motor1 = new Motorcycle("Beat", "Skuter");
         motor1.setHarga(50000);
         motor1.setTipeBbm("Pertamax");
         motor1.setTransmisi("Automatic");
