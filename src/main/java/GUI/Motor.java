@@ -195,19 +195,19 @@ public class Motor extends javax.swing.JFrame {
         jBtnRent3.setBounds(990, 720, 180, 70);
 
         jLabel1.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
-        jLabel1.setText("MPV");
+        jLabel1.setText("Skuter");
         getContentPane().add(jLabel1);
-        jLabel1.setBounds(870, 520, 40, 20);
+        jLabel1.setBounds(850, 520, 60, 20);
 
         jLabel2.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
-        jLabel2.setText("MPV");
+        jLabel2.setText("Naked-bike");
         getContentPane().add(jLabel2);
-        jLabel2.setBounds(1310, 520, 40, 20);
+        jLabel2.setBounds(1240, 520, 110, 20);
 
         jLabel3.setFont(new java.awt.Font("Verdana", 0, 18)); // NOI18N
-        jLabel3.setText("MPV");
+        jLabel3.setText("Skuter");
         getContentPane().add(jLabel3);
-        jLabel3.setBounds(414, 520, 40, 20);
+        jLabel3.setBounds(394, 520, 60, 20);
 
         carbg.setIcon(new javax.swing.ImageIcon(getClass().getResource("/GUI/Assets/motorcyle page.png"))); // NOI18N
         getContentPane().add(carbg);
