@@ -10,15 +10,15 @@ Aplikasi ini berguna untuk melakukan manajemen terhadap bisnis rental kendaraan 
 
 ## Team Member
 
-1. Amar Suhendra
-2. Hilmi Kaisarrian Sharief
-3. Muhammad Rudy Hidayat
-4. Putri Aulia Mentari
-5. Amanda arga nabila
+1. Amar Suhendra            (2008107010091) CEO
+2. Hilmi Kaisarrian Sharief (1908107010070) GUI Design Division     
+3. Muhammad Rudy Hidayat    (2008107010002) GUI Design Division
+4. Putri Aulia Mentari      (2008107010099) Data Flow Division
+5. Amanda arga nabila       (2008107010093) Data Flow Division
 
 ## Version History
 
--
+- Version Alpha 1.0
 
 ## License
 
